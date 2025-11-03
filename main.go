@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println(thoughts.GetRandomQuote())
+	fmt.Printf("+++ %s +++ \n", thoughts.GetRandomQuote())
 }
